@@ -27,7 +27,7 @@ res = [Entry(*r) for r in res]
 for r in res:
     try:
         print(r)
-        urlretrieve(r.url, os.path.join(base, r.filename.removeprefix("storage:")))
+        urlretrieve(r.url, os.path.join(base, r.key, r.filename.removeprefix("storage:")))
     except Exception as e:
         print(e)
         print(r)
