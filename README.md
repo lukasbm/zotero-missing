@@ -18,7 +18,7 @@ python download.py
 ```
 
 > [!NOTE]
-> This script does not touch the database, nor overwrite existing files. NO CORRUPTION RISK
+> This script does not touch the database, nor overwrite existing files.
 
 
 ## Reverse Engineer the Database
