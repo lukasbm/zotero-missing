@@ -1,11 +1,29 @@
 # Zotero Fix
 
 This repo can be used to download missing attachments from arxiv etc. (assuming the attachment is already there, but the
-file was not synced)
+file was not synced for whatever reason)
 
 In the future it could also be used to update the files, in case a new version is available.
 
+## Usage
+
+> [!WARNING]
+> Liunx only!
+
+Only uses default packages included in every python install:
+
+Assuming a standard zotero install
+```
+python download.py
+```
+
+> [!NOTE]
+> This script does not touch the database, nor overwrite existing files. NO CORRUPTION RISK
+
+
 ## Reverse Engineer the Database
+
+Idk if there is a official description of the database scheme so i reverse engineered it.
 
 Relevant Tables: `itemAttachments` and `items`
 

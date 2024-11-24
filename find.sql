@@ -1,7 +1,5 @@
 -- TODO: assert that syncQueue is empty
 
--- Something is broken ... these are not enough entries!
-
 -- getting links!
 WITH missing AS (SELECT itemID
                  from itemAttachments
